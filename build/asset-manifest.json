@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NTPbreak/React_Guess_Number/static/css/main.a8d66155.css",
+    "main.js": "/NTPbreak/React_Guess_Number/static/js/main.e1984f31.js",
+    "static/js/453.56f46472.chunk.js": "/NTPbreak/React_Guess_Number/static/js/453.56f46472.chunk.js",
+    "static/media/sakura.png": "/NTPbreak/React_Guess_Number/static/media/sakura.d2630647d80d010c3faf.png",
+    "static/media/natsu.png": "/NTPbreak/React_Guess_Number/static/media/natsu.007ecc4e3134131033fa.png",
+    "static/media/sukuna.png": "/NTPbreak/React_Guess_Number/static/media/sukuna.5aff436f42d12711da97.png",
+    "index.html": "/NTPbreak/React_Guess_Number/index.html",
+    "main.a8d66155.css.map": "/NTPbreak/React_Guess_Number/static/css/main.a8d66155.css.map",
+    "main.e1984f31.js.map": "/NTPbreak/React_Guess_Number/static/js/main.e1984f31.js.map",
+    "453.56f46472.chunk.js.map": "/NTPbreak/React_Guess_Number/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d66155.css",
+    "static/js/main.e1984f31.js"
+  ]
+}
