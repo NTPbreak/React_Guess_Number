@@ -1,0 +1,42 @@
+.text_form
+{
+    font-weight: bold;
+
+    color: #2ca58d;
+}
+
+
+/* Parametre.css */
+.container_dev_Form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+}
+
+.text_form {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.part2 {
+  padding: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-success {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}

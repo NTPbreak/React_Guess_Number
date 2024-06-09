@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+.h1_dev {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.button_dev {
+  background-color: white;
+  border: none;
+  color: rgb(41, 40, 40);
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 25px;
+}
+
+.button_dev:hover {
+  background-color: #F5DE19 !important;
+  color: black !important;
+}
+.select_dev button:hover
+{
+  background-color: #F5DE19 !important;
+  color: black !important;
+}
+.image_dev {
+  z-index: 10;
+}
+
+@media (max-width: 1000px) {
+  .select_niveau {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .container.container_dev {
+    width: 90% !important;
+    margin-bottom: 45px;
+  }
+  #cont_root div {
+    margin-top: 45px;
+  }
+
+  .return_help {
+    margin-bottom: 45px !important;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .select_dev {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    margin: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.btn_dev {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+#cont_root {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(3,1fr) !important; */
+}
+
+#cont_root .container_dev:hover
+{
+    box-shadow: 0px 0px  50px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in;
+}
+.select_dev {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  right: 0;
+  background-color: #282c3486 !important;
+  width: 50% !important;
+  /* height: 100% !important; */
+  color: #282c34 !important;
+  height: 60% !important;
+  margin: 0 auto;
+  padding: auto;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée */
+}
+.select_dev h1 ,button
+{
+ font-size: 20px !important;
+}
+
+.select_dev > div 
+{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.select_dev > div  div 
+{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+.select_dev button
+{
+  margin-left: 45px;
+}
+
+
+#cont_root:has(.select_dev) > div:not(.select_dev) {
+  filter: blur(7px);
+}
+
+#cont_root:has(.select_dev) > * {
+  filter: blur(0px);
+}
+
+
+
+.select_dev.container {
+  width: 70%;
+}
+
+.select_dev.removed {
+  display: none;
+  transform: scale(1); /* Reset any scaling */
+  opacity: 1; /* Reset opacity */
+}
+
+.img_dev_box_shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.help_content {
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.help {
+  font-size: 25px;
+  font-weight: bold;
+  width: 70%;
+}
+.navbar {
+  background-color: #2ca58d !important;
+}
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #2ca58d !important;
+}
+
+
+.disable-scroll {
+  overflow: hidden;
+  transition: overflow 0.3s ease-in-out ;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

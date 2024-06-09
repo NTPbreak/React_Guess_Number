@@ -1,0 +1,130 @@
+/* CSS */
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.container_dev_game {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin: 20px;
+  max-width: 900px;
+  max-height: 450px;
+  transition: all 0.3s ease-in-out;
+}
+.Message_Guide
+{
+  transition: all 0.3s ease-in-out
+}
+.message_text
+{
+    transition: all 0.3s ease-in-out
+
+}
+
+.progress-container {
+  margin-bottom: 30px;
+}
+
+.progress-bar-container {
+  background-color: #2ca58d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 20px;
+  color: white;
+  background-color: #161616;
+  border-radius: 10px;
+  /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+  transition: width 0.3s ;
+}
+
+.header {
+  padding: 20px;
+  background-color: #161616b7;
+  /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Gestion du contenaire ou l'on va mettre les question */
+
+.question-container {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.message {
+  font-size: 18px;
+}
+
+.container_indicator
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Gestion de l'input de reponse */
+
+.response-container {
+  margin-top: 45px;
+   display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center;    /* Centrer verticalement */
+}
+
+.response-container-group
+{
+ 
+  width: 50%;
+
+}
+.response-input {
+  background-color: transparent;
+  border:1px solid #161616;
+}
+
+.response-btn {
+  background-color: #161616;
+  color: white;
+  border: none;
+  border-radius: none !important;
+}
+
+.response-btn:hover
+{
+  background-color: #F5DE19 !important;
+  color: black;
+}
+.response-retry
+{
+   background-color: #F5DE19 !important;
+  color: black;
+  border: none !important;
+}

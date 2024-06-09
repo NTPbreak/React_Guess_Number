@@ -1,0 +1,100 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+}
+
+
+.parametre-slide-in {
+  animation: slideIn 0.3s forwards;
+}
+
+.parametre-slide-out {
+  animation: slideOut 0.3s forwards;
+}
+
+.cont_parametre {
+  background-color: #f9f9f9;
+  width: 30%;
+  position: fixed;
+  right: 0;
+  padding: 20px;
+
+  top: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 500px;
+overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.param-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.select {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+.select:focus {
+  background-color: #f0f0f0;
+  border-color: #999;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.select option:hover {
+  background-color: #eee;
+}
+
+.btn-guess
+{
+    background-color: #2ca58d !important;
+    color: white;
+
+}
+.btn-guess-second
+{
+   background-color: #F5DE19 !important;
+    color: black;
+}
+
+.select option:checked {
+  background-color: #2ca58d !important;
+  color: #fff;
+}
